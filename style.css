@@ -1,0 +1,107 @@
+header {
+    background-color: black;
+}
+body {
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background-position: top center;
+  }
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .navigation li {
+    font-size: 600px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    padding: 50px;
+  }
+  .navigation  li.logo {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+  #banner {
+    background-image: url(radiohead-concert.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+  }
+  #banner .content h1 {
+    border: 10px, solid white;
+    color:black;
+    position: center;
+    top: 100px;
+    width: 700px;
+    padding: 50px;
+    margin: 0 auto;
+  }
+  #main {
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    width: 1000px;
+    height: 1000px;
+  }
+  h1 {
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+  }
+  p {
+    color: grey;
+    font-size: 16px;
+    line-height: 48px;
+    margin-top: 60px;
+    padding: 10px 20px;
+  }
+  
+  .pull-quote {
+    margin: 0 auto;
+    width: 400px;
+  }
+  
+.pull-quote {
+    margin: 0 auto;
+    width: 400px;
+    border: 5px solid LightGrey;
+  }
+  
+  .byline {
+    border-bottom: 1px solid LightGrey;
+    border-top: 1px solid LightGrey;
+    color: DarkGrey;
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .share {
+    border: 1px solid LightGrey;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .share a {
+    background:black;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .share a:hover {
+    background: white;
+    border: 1px solid red;
+    color:white;
